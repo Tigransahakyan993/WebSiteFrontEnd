@@ -121,9 +121,9 @@ class Account extends React.Component{
                                             <p className='todo_N'>TODO: {index+1}</p>
                                         </div>
                                         <div className='todoContainer'>
-                                            <div className='p4'><p>{post.post}</p></div>
                                             <div> <Button name='Change' onClick={() => this.updateModalVisible(post)} /></div>
                                             <div> <Button name='Delete' onClick={() => this.postDelete(post)}/></div>
+                                            <div className='p4'><p>{post.post}</p></div>
                                         </div>
                                     </div>
                                 )
