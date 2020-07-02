@@ -1,0 +1,8 @@
+.CreateUserBar{
+    display: inline-block;
+    flex-direction: column;
+    width: 100%;
+    background-color: #933a3a;
+    z-index: 0;
+    padding: 2vh;
+}

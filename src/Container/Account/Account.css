@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.accountDiv {
+    display: flex;
+}
+.acbDescription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imgContainer{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.accountHeader{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.personInfo{
+    padding:5px;
+    margin: 5px;
+    display: flex;
+}
+
+.personInfo > p {
+    margin: 4px;
+}
+
+#userTodo > div{
+    display: flex;
+    flex-direction: row;
+}
+
+#userTodo {
+    border: 1px solid black;
+}
+
+
+
+.todoContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 9px;
+}
+
+.todoContainer > div {
+    margin: 2px;
+}
+
+.todo_N {
+    margin: 13px;
+    color: #933a3a;
+}

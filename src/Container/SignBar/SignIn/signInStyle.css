@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.SingInComponent{
+    display: flex;
+    justify-content: center;
+}
+
+.SignIn_container{
+    height: 50vh;
+    width: 50vh;
+    box-sizing: content-box;
+    margin-left: 1fr;
+    margin-bottom: 1fr;
+    margin-top: 2fr;
+}
+
+.dropdown-menu {
+    display: contents;
+}
